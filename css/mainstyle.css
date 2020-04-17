@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e82600;
+}
+/*--- navigation bar ---*/
+.navbar {
+    background: #0a043c;
+
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-left: 1em !important;
+    font-family: 'Alegreya', serif;
+}
+
+.nav-link:hover {
+    color: #fff0eb;
+    background-color: #e29918;
+    width: 100%;
+    border-radius: 1px;
+
+}
+.navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+a{
+    font-size: 18px;
+}
+.col-sm-4> h4{
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: rgba(12, 4, 79, 0.8);
+}
+
+
+
+
+.card-body > h4{
+    font-family: 'Alegreya', serif;
+    color: #fff0eb;
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #fff0eb !important;
+}
+.navbar-toggler.navbar-dark{
+    border-color: whitesmoke;
+}
+.navbar-toggler-icon:{
+
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover
+{
+ color: #00acc1;
+
+}
+
+.logo{
+    font-size: 600px;
+}
+.textstyle{
+    margin: 5px;
+    padding: 8px;
+}
+
+.contentsizing{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height:1.4;
+}
+.carousel-caption{
+    /*position: absolute;*/
+    background-color: rgba(0,0,0,0.3);
+    /*padding: 10px;*/
+    font-size: 15px;
+
+}
+.carousel-fade .carousel-item{
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+
+.fa-facebook-f{
+    font-size: 2vw;
+    margin: 5px;
+    color: white;
+}
+.fa-twitter{
+    font-size: 2vw;
+    margin: 5px;
+    color: white;
+}
+
+hr{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.event .card-text {
+    font-size: 10px !important;
+}
+
+.carousel-control-prev{
+    color: cornflowerblue; !important;
+}
